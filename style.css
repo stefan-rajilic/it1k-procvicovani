@@ -1,0 +1,32 @@
+.container {
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 35vw;
+    padding-block: 20px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.container a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.container a:hover {
+    text-decoration: underline;
+    color: rgb(115, 115, 115);
+}
+
+div {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
